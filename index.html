@@ -9,6 +9,137 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1>Hello World</h1>
+    <div class="bg-blue p-20 mb-10">
+      <h1 class="text-white text-center">Flex practice</h1>
+    </div>
+
+    <div class="p-10 mt-20">
+      <h1 class="text-black text-center">Flex Row</h1>
+    </div>
+    <div class="flex bg-purple p-20 gap-10 mb-10">
+      <div class="bg-yellow w-sm h-sm"></div>
+      <div class="bg-blue w-sm h-sm"></div>
+      <div class="bg-green w-sm h-sm"></div>
+      <div class="bg-red w-sm h-sm"></div>
+      <div class="bg-black w-sm h-sm"></div>
+    </div>
+    <div class="p-10 mt-20">
+      <h1 class="text-black text-center">Flex Row reverse</h1>
+    </div>
+    <div class="flex content-start row-reverse bg-purple p-20 gap-10 mb-10">
+      <div class="bg-yellow w-sm h-sm"></div>
+      <div class="bg-blue w-sm h-sm"></div>
+      <div class="bg-green w-sm h-sm"></div>
+      <div class="bg-red w-sm h-sm"></div>
+      <div class="bg-black w-sm h-sm"></div>
+    </div>
+    <div class="p-10 mt-20">
+      <h1 class="text-black text-center">Flex Row Content Center</h1>
+    </div>
+    <div class="flex content-center bg-purple p-20 gap-10 mb-10">
+      <div class="bg-yellow w-sm h-sm"></div>
+      <div class="bg-blue w-sm h-sm"></div>
+      <div class="bg-green w-sm h-sm"></div>
+      <div class="bg-red w-sm h-sm"></div>
+      <div class="bg-black w-sm h-sm"></div>
+    </div>
+    <div class="p-10 mt-20">
+      <h1 class="text-black text-center">Flex Row content end</h1>
+    </div>
+    <div class="flex content-end bg-purple p-20 gap-10 mb-10">
+      <div class="bg-yellow w-sm h-sm"></div>
+      <div class="bg-blue w-sm h-sm"></div>
+      <div class="bg-green w-sm h-sm"></div>
+      <div class="bg-red w-sm h-sm"></div>
+      <div class="bg-black w-sm h-sm"></div>
+    </div>
+    <div class="p-10 mt-20">
+      <h1 class="text-black text-center">Flex Row Space Around</h1>
+    </div>
+    <div class="flex space-around bg-purple p-20 gap-10 mb-10">
+      <div class="bg-yellow w-sm h-sm"></div>
+      <div class="bg-blue w-sm h-sm"></div>
+      <div class="bg-green w-sm h-sm"></div>
+      <div class="bg-red w-sm h-sm"></div>
+      <div class="bg-black w-sm h-sm"></div>
+    </div>
+    <div class="p-10 mt-20">
+      <h1 class="text-black text-center">Flex Row Space Between</h1>
+    </div>
+    <div class="flex space-between bg-purple p-20 gap-10 mb-10">
+      <div class="bg-yellow w-sm h-sm"></div>
+      <div class="bg-blue w-sm h-sm"></div>
+      <div class="bg-green w-sm h-sm"></div>
+      <div class="bg-red w-sm h-sm"></div>
+      <div class="bg-black w-sm h-sm"></div>
+    </div>
+
+    <!-- <div class="p-10 mt-20">
+      <h1 class="text-black text-center">Flex Wrap</h1>
+    </div>
+    <div class="flex flex-wrap bg-purple p-20 gap-10 mb-10">
+      <div class="bg-yellow w-sm h-sm"></div>
+      <div class="bg-blue w-sm h-sm"></div>
+      <div class="bg-green w-sm h-sm"></div>
+      <div class="bg-red w-sm h-sm"></div>
+      <div class="bg-black w-sm h-sm"></div>
+      <div class="bg-yellow w-sm h-sm"></div>
+      <div class="bg-blue w-sm h-sm"></div>
+      <div class="bg-green w-sm h-sm"></div>
+      <div class="bg-red w-sm h-sm"></div>
+      <div class="bg-black w-sm h-sm"></div>
+      <div class="bg-yellow w-sm h-sm"></div>
+      <div class="bg-blue w-sm h-sm"></div>
+      <div class="bg-green w-sm h-sm"></div>
+      <div class="bg-red w-sm h-sm"></div>
+      <div class="bg-black w-sm h-sm"></div>
+      <div class="bg-yellow w-sm h-sm"></div>
+      <div class="bg-blue w-sm h-sm"></div>
+      <div class="bg-green w-sm h-sm"></div>
+      <div class="bg-red w-sm h-sm"></div>
+      <div class="bg-black w-sm h-sm"></div>
+    </div> -->
+
+    <div class="p-10 mt-20">
+      <h1 class="text-black text-center">Flex Row and Column (2 columns)</h1>
+    </div>
+    <div class="flex w-full">
+      <!-- first box -->
+      <div class="flex flex-column item-center content-center bg-purple w-full">
+        <div class="flex p-20 gap-10 mb-10">
+          <div class="bg-yellow w-sm h-sm"></div>
+          <div class="bg-blue w-sm h-sm"></div>
+          <div class="bg-green w-sm h-sm"></div>
+          <div class="bg-red w-sm h-sm"></div>
+          <div class="bg-black w-sm h-sm"></div>
+        </div>
+        <!-- reverse row -->
+        <div class="flex content-start row-reverse p-20 gap-10 mb-10">
+          <div class="bg-yellow w-sm h-sm"></div>
+          <div class="bg-blue w-sm h-sm"></div>
+          <div class="bg-green w-sm h-sm"></div>
+          <div class="bg-red w-sm h-sm"></div>
+          <div class="bg-black w-sm h-sm"></div>
+        </div>
+      </div>
+      <!-- second box -->
+      <div class="flex bg-purple w-full">
+        <div class="flex flex-column p-20 gap-10 mb-10">
+          <div class="bg-yellow w-sm h-sm"></div>
+          <div class="bg-blue w-sm h-sm"></div>
+          <div class="bg-green w-sm h-sm"></div>
+          <div class="bg-red w-sm h-sm"></div>
+          <div class="bg-black w-sm h-sm"></div>
+        </div>
+        <!-- reverse column -->
+        <div class="flex column-reverse p-20 gap-10 mb-10">
+          <div class="bg-yellow w-sm h-sm"></div>
+          <div class="bg-blue w-sm h-sm"></div>
+          <div class="bg-green w-sm h-sm"></div>
+          <div class="bg-red w-sm h-sm"></div>
+          <div class="bg-black w-sm h-sm"></div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
