@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -20,5 +20,30 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Tilt Warp', cursive;
+  font-family: "Tilt Warp", cursive;
+}
+
+/* align item-box-size */
+.first-box {
+  border-radius: 11px;
+  width: 56px;
+  height: 75px;
+}
+
+.second-box {
+  border-radius: 11px;
+  width: 56px;
+  height: 131px;
+}
+
+.third-box {
+  border-radius: 11px;
+  width: 56px;
+  height: 48px;
+}
+
+.fourth-box {
+  border-radius: 11px;
+  width: 56px;
+  height: 60px;
 }
